@@ -1,0 +1,211 @@
+html,body {
+    height: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+body{
+    text-rendering: optimizeLegibility;
+    color: #6c6f73;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,h2,h3,h4,h5 {
+    color: #333;
+}
+
+h6{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-size: 1.1rem;
+}
+
+#section-one{
+    background: url(/imgport/Header.jpg) center no-repeat ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 100%;
+   
+}
+
+
+.header-content{
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.header-content h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.6rem;
+
+}
+
+.header-content p{
+    font-size: 1.7rem;
+
+}
+
+#section-two {
+
+    height : max-content;
+}
+
+#section-two h1 {
+    text-align: center;
+}
+
+#myDesc {
+    font-size: 1.3rem;
+}
+
+.dark-content{
+    background: #262f36;
+    color: white;
+}
+
+#dark-content-title {
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    
+}
+
+.light-content {
+    background: wheat;
+}
+
+#light-content-title {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+}
+
+#section-three {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#section-three h1 {
+    text-transform: uppercase;
+    
+}
+
+#section-three p {
+    
+}
+
+#section-four {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#section-five {
+    height: 100%;
+}
+
+#section-six {
+    height: max-content;
+    display: flex;
+    align-items: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+#section-five
+.carousel,
+.item,
+.active {
+    height: 100%;
+    
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+#section-seven {
+    height: 100%;
+    
+}
+
+#section-seven h1 {
+    text-align: center;
+}
+
+#section-eight {
+    height: max-content;
+    display: flex;
+    align-items: center;
+
+    
+}
+
+#section-nine {
+    height: 100%;
+}
+
+#section-nine h1 {
+    text-align: center;
+}
+
+#barProgress {
+    margin-bottom: 2.35rem;
+}
+
+#projectsContainer {
+    background-color:#1a3f4d ;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px 50px;
+}
+
+#eduContent {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px 50px;
+    
+}
+
+.extrasList {
+   font-weight: 500;  
+   font-size: 1.1rem;
+}
+
+#extrasContent {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px 50px;
+}
+
+#SkillsContent {
+    background-color:#1a3f4d ;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 20px 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#IntroContent {
+    margin-bottom: 1.5rem;
+    background-color:#1a3f4d ;
+    border-radius: 20px;
+    padding: 20px 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
