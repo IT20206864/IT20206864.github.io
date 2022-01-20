@@ -91,7 +91,17 @@ h6{
 .header-content{
     text-align: center;
     margin: 0 auto;
+    animation: intro-fade 2s ease-in;
 
+}
+
+@keyframes intro-fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 .header-content h1 {
