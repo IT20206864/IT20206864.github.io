@@ -167,14 +167,20 @@ h6{
     align-items: center;
 }
 
+@media screen and (max-width: 992px) {
+    #section-three {
+        height: fit-content;
+        display: flex;
+        align-items: center;
+    }
+}
+
 #section-three h1 {
     text-transform: uppercase;
     
 }
 
-#section-three p {
-    
-}
+
 
 #section-four {
     height: 100%;
@@ -182,9 +188,27 @@ h6{
     align-items: center;
 }
 
+@media screen and (max-width: 992px) {
+    #section-four{
+        height: fit-content;
+    }
+}
+
+#gitBtn {
+    margin-left: 20%;
+}
+
+@media screen and (max-width: 992px) {
+    #gitBtn{
+        margin-bottom: 2rem;
+    }
+}
+
+
 #section-five {
     height: 100%;
 }
+
 
 #section-six {
     height: max-content;
@@ -206,10 +230,15 @@ h6{
 }
 
 #section-seven {
-    height: 70%;
+    height: 75%;
     
 }
 
+@media screen and (max-width: 992px) {
+    #section-seven{
+        height: fit-content;
+    }
+}
 #section-seven h1 {
     text-align: center;
 }
@@ -231,8 +260,8 @@ h6{
 }
 
 #barProgress {
-    margin-bottom: 2.35rem;
-}
+    margin-bottom: 2.65rem;
+} 
 
 #projectsContainer {
     background-color:#1a3f4d ;
