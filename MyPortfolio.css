@@ -230,7 +230,7 @@ h6{
 }
 
 #section-seven {
-    height: 75%;
+    height: fit-content;
     
 }
 
@@ -316,6 +316,7 @@ h6{
 
 .job-content{
     
+
     text-align: center;
     margin-top: 8%;
     
